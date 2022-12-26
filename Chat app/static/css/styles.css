@@ -1,0 +1,78 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.log {
+    display: block;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+#logout {
+    padding-top: 10px;
+    display: inline;
+    text-align: center;
+}
+
+.message_holder {
+    max-width: 800px;
+    margin: auto;
+    border: 3px solid black;
+    height: 40vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 100px;
+    background-color: aliceblue;
+}
+
+.message {
+    background-color: aliceblue;
+    width: 24%;
+    padding: 10px;
+    margin: 0px 60vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    float: center;
+    height: 10vh;
+}
+
+.username {
+    background-color: aliceblue;
+    width: 20vh;
+    padding: 5px;
+    margin: 10px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    height: 5vh;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 6px;
+    height: 5vh;
+    float: right;
+}
+
+.btn:active {
+    background-color: red;
+}
+
+body {
+    background-color: rgb(51, 197, 87);
+}
